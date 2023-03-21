@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="#norde"> Lista não Ordenada </a></p>
+    <p><a href="#orde"> Lista Ordenada </a></p>
+    <p><a href="#desc"> Lista descrição </a></p>
+
+    <h1  >Criando Lista</h1>
+
+    <ul class="ListaB" id="norde"> <!-- Listagem com bolinha sendo UL-->
+        <li> Maça </li>
+        <li> Pera </li>
+        <li> Uva </li>
+        <li> Morango </li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+
+    <ol class="Ordenada" id="orde" > <!-- Listagem com numerico sendo OL-->
+        <li> Café </li>
+        <li> Leite </li>
+        <li> Carne </li>
+        <li> Suco </li>
+    </ol>
+
+    <h2 id="ListaO"> Lista Descritiva </h2>
+    
+    <dl class="Descritiva" id="desc">
+        <dt>Arroz</dt>
+        <dd> Integral </dd><br>
+        <dt> Leite </dt>
+        <dd> Semidesnatado </dd><br>
+        <dt> Amaciante </dt>
+        <dd> liquido </dd>
+    </dl>
+
+    <style>
+
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+
+        h1{
+            color: blue;
+        }
+        h2{
+            color: red;
+        }
+        .ListaB{
+            color: rgb(8, 88, 28);
+        }
+        .Ordenada{
+            color: rgb(12, 119, 122);
+        }
+        .Descritiva{
+            color: blue;
+        }
+        #ListaO{
+            color: aliceblue;
+        }
+
+    </style>
+
+
+
+</body>
+</html>
