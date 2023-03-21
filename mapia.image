@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Mapeamento de imagen</h2>
+    <p>
+        Clique no computador, ou no telefone ou na xicara de cafe para carregamos
+        a pagina de referencia 
+    </p>
+   
+    <img src="https://www.w3schools.com/html/html_images.asp" 
+    ]alt="Foto computador" 
+    width="400" 
+    height="379" 
+    usemap="#mapimage">
+    
+    <map name="mapimage">
+        <area shape="rect"
+
+        coords="34,44,270,350" 
+        alt="Computador"
+        href="https://www.apple.com/br/store?afid=p238%7
+        CsikJb1MHC-dc_mtid_1870765e38482_pcrid_650785649201_
+        pgrid_17049243418_
+        pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-">
+
+        <area shape="rect" 
+        coords="290,172,333,250" 
+        alt="telefone"
+        href="https://www.apple.com/br/store?afi
+        d=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcr
+        id_650785649201_pgrid_170492
+        43418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid-
+        --product-">
+
+        <area shape="circle" 
+        coords="337,300,44"
+        alt="Café"
+        href="https://www.amazon.com.br/Cafeteira-M
+        ondial-x%C3%ADcaras-C-42-2X-RI-CAFETEIRA/dp/B08HZH
+        H47D/ref=asc_df_B08HZHH47D/?tag=googleshopp00-20&l
+        inkCode=df0&hvadid=457277241281&hvpos=&hvnetw=g&hvrand=23430
+        82706935806237&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvl
+        ocint=&hvlocphy=1001754&hvtargid=pla-1235374874850&psc=1">
+   </map>
+
+
+
+
+
+
+</body>
+</html>
