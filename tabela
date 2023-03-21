@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela dos cria</title>
+</head>
+<body>
+    <h1> Criando tabelas </h1>
+
+    <table border="3">
+    <tr>
+        <th> Coluna 1</th>
+        <th> coluna 2</th>
+        <th> coluna 3</th>
+        <th> imagem </th>
+    </tr>
+        <tr>
+        <td> linha 2 coluna 1</th>
+        <td> linha 2 coluna 2</th>
+        <td> linha 2 coluna 3</th>
+        <td  img src="predio.webp" alt="Alternativo da imagem" width="50" height="50" ></td>
+    </tr>
+</tr>
+<tr>
+<td> linha 3 coluna 1</th>
+<td> linha 3 coluna 2</th>
+<td> linha 3 coluna 3</th>
+<td><img src="predio.webp" alt="Alternativo da imagem" width="300" height="200"></td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
