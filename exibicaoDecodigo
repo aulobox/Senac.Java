@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Exemplo de exibição de códigos
+
+    </title>
+</head>
+    <Style>
+        .paragrafo{ color: blueviolet;
+        }
+        var {
+            color: chocolate;
+        }
+    </Style>
+<body>
+    <h1> Inserir códigos para exibição</h1>
+    <p class="paragrafo"> Efetuar a soma das variaveis <var>x</var> e <var>y</var></p>
+</pre><code><p>
+    int x=1;
+    int y=2;
+    int z=x+y
+    Console.writeLine (z);
+<pre></code></p>
+<p><samp>
+    3
+</samp></p>
+<p> Pressione <kbd> CTRL+S</kbd> Para Salvar </p>
+
+<h2> Inserir Emoji ou simbolos</h2>
+
+    <p>
+        &U+1F468
+    </p>
+
+</body>
+</html>
