@@ -1,0 +1,54 @@
+</head>
+<body style="background-color: darkgrey;">      
+    
+
+        <p><h1 style="color: chocolate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: xx-large;"
+        > Formulário </h1></p>
+
+        <form>
+            <br>
+            <label for="FormNome">Nome</label><br>
+            <input type="text" id="FormNome" name="FormNome"><br>
+            <label for="FormEmail">Email</label><br>
+            <input type="email" name="FormEmail" id="FormEmail"><br><br>
+            
+            <fieldset>
+                <legend> Selecione sua cidade </legend>
+
+            <input type="radio" name="rCidade" id="rCidade" value="SaoPaulo">
+            <label for="rCidade"> São Paulo</label><br>
+            
+            <input type="radio" name="rCidade" id="rCidade2" value="Osasco">
+            <label for="rCidade"> Osasco </label><br>
+
+            <input type="radio" name="rCidade" id="rCidade3" value="Carapicuiba">
+            <label for="rCidade"> Carapicuiba </label><br>
+             </fieldset>
+             <br>
+
+             <fieldset>
+                <legend> Selecione seu transporte </legend>
+
+            <input type="checkbox" name="rTransporte" id="rtransporte" value="Trem">
+            <label for="rtransporte"> Trem </label><br>
+
+            <input type="checkbox" name="rTransporte" id="rtransporte2" value="Metro">
+            <label for="rtransporte"> Metro </label> <br>
+
+            <input type="checkbox" name="rTransporte" id="rtransporte3" value="Onibus">
+            <label for="rtransporte"> Onibus </label><br>
+
+        </fieldset>
+        <br>
+            <label for="cor"> Selecione a cor desejada </label> <br>
+            <input type="color" name="cor" id="cor">
+            <br> <br>
+            <label for="senha"> Digite sua senha </label> <br>
+            <input type="password" name="senha" id="senha" minlength="3" maxlength="3">
+
+            <input type="submit" id="btnSalvar" value="Salvar">
+
+        </form>
+    
+</body>
+</html>
