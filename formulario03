@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firenheit</title>
+</head>
+<body>
+
+    <script>
+function Calculo(){
+
+let c
+let result
+
+if ( c != 0  ){
+    
+let f = document.getElementById("TempF").value;
+ c = (f-32)/1.8;
+document.getElementById("tempC").value = c
+}
+else{
+    
+    document.getElementById("TempC") = ("")
+}
+
+
+
+}
+
+    </script>
+
+    <h1>Exemplo página com entrada de dados e operações mátematicas</h1>
+
+<form>
+
+    <label for="TempF"></label><br>
+    <input type="number" placeholder="Firenheit" name="ForFirenheit" id="TempF"><br>
+
+    <label for="tempC"></label><br>
+    <input type="number" name="FormCelsios" placeholder="Celsios" id="tempC"><br>
+
+    <label for="tempK"></label><br>
+    <input type="number" name="Formkelvin" placeholder="kelvin" id="tempK"><br><br>
+
+    <input type="button" id="btnCalculo" onclick= "Calculo()"  value="Calcular">
+</form>
+
+</body>
+</html> 
